@@ -6,9 +6,14 @@
 
 [Instructions Here](https://github.com/craftcms/docs/blob/v3/en/installation.md)
 
-#### Remove .gitignore and README.md from the directory
+#### Remove .gitignore and README.md from your new craft project
+This is so we can pull in the scaffold repo with no merge issues
 
     rm .gitignore README.md
+
+#### Initialize git in your project
+
+    git init
 
 #### Add this repo as an upstream and pull it in
 
@@ -21,6 +26,7 @@
 #### Clean up the .gitignore to include craft bits
 
 Remove all of the lines after:
+
     ## Initial Craft ignores, remove after adding this scaffolding ##
 
 #### Install packages.
