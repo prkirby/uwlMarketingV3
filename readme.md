@@ -4,17 +4,24 @@
 
 #### Install Craft 3 with composer
 
-    [Instructions Here](https://github.com/craftcms/docs/blob/v3/en/installation.md)
+[Instructions Here](https://github.com/craftcms/docs/blob/v3/en/installation.md)
 
-#### Download this Repo and add to your project
+#### Remove .gitignore and README.md from the directory
 
-    Unfortunately you can't create a composer project in a non-empty directory,
-    and you cant clone a repo into a non-empty directory, so it's the best we got.
+    rm .gitignore README.md
+
+#### Add this repo as an upstream and pull it in
+
+    git remote add scaffold git@github.com:prkirby/craft3foundationscaffold.git
+    git pull scaffold master
+
+>Unfortunately you can't create a composer project in a non-empty directory,
+>and you cant clone a repo into a non-empty directory, so it's the best we got.
 
 #### Clean up the .gitignore to include craft bits
 
-    Remove all of the lines after:
-    >Initial Craft ignores, remove after adding this scaffolding
+Remove all of the lines after:
+    ## Initial Craft ignores, remove after adding this scaffolding ##
 
 #### Install packages.
 
