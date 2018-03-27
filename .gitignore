@@ -1,0 +1,30 @@
+## Global Ignores ##
+.DS_Store
+node_modules
+npm-debug.log
+*.swp
+
+## Craft Specific Ignores ##
+/.env
+/.idea
+/vendor
+.DS_Store
+
+## Gulp Builds (Change according to your project) ##
+/web/assets/**/*.js
+/web/assets/**/*.css
+
+## Initial Craft ignores, remove after adding this scaffolding ##
+config
+modules
+storage
+templates
+vendor
+web
+.env
+.env.example
+composer.json
+composer.lock
+craft.bat
+craft
+LICENSE.md
