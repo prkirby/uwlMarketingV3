@@ -15,16 +15,3 @@ npm-debug.log
 /web/assets/**/*.css
 
 ## Initial Craft ignores, remove after adding this scaffolding ##
-config
-modules
-storage
-templates
-vendor
-web
-.env
-.env.example
-composer.json
-composer.lock
-craft.bat
-craft
-LICENSE.md
